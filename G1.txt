@@ -1,0 +1,15 @@
+ndvi-vegetation-analysis-karnataka
+
+ndvi-vegetation-analysis-karnataka/
+│
+├── README.md
+├── app.py
+├── requirements.txt
+├── research_paper.pdf
+├── data/
+│   └── (optional / empty)
+├── screenshots/
+│   ├── ndvi_map.png
+│   ├── classification_map.png
+│   └── dashboard.png
+└── LICENSE

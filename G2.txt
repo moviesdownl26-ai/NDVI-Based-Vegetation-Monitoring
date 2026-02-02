@@ -1,0 +1,50 @@
+# NDVI-Based Vegetation Analysis of Karnataka
+
+## 📌 Overview
+This project analyzes vegetation density across Karnataka, India, using the 
+Normalized Difference Vegetation Index (NDVI) derived from Sentinel-2 satellite imagery.
+The analysis is performed using Google Earth Engine and visualized through an
+interactive Streamlit web dashboard.
+
+## 🎯 Objectives
+- Assess spatial variation of vegetation density across Karnataka
+- Classify land cover into vegetation density categories using NDVI
+- Provide interactive geospatial visualization through a web-based dashboard
+
+## 🛰️ Data Source
+- **Satellite:** Sentinel-2 (ESA)
+- **Year of Analysis:** 2024
+- **Platform:** Google Earth Engine
+
+## 🛠 Tools & Technologies
+- Google Earth Engine (cloud-based geospatial processing)
+- Python
+- geemap
+- Streamlit
+- ngrok (for web deployment)
+
+## 🌍 Interactive Dashboard
+The project includes a Streamlit-based interactive dashboard for visualizing NDVI
+and vegetation classification maps.
+
+🔗 Live Demo:  
+https://buckwheatlike-unquietly-anibal.ngrok-free.dev/
+
+## 📊 Methodology
+1. Sentinel-2 imagery collection and cloud masking
+2. NDVI computation using red and near-infrared bands
+3. Vegetation classification into density categories
+4. Map visualization using geemap
+5. Web dashboard development using Streamlit
+
+## 📄 Research Paper
+A detailed research paper explaining the methodology, results, and analysis is
+included in this repository.
+
+## 👥 Authors
+- Aditya Krishna Joshi  
+- Gunveer Singh Nagpal  
+- Pratyush Parvataneni  
+
+## 📜 License
+This project is licensed under the MIT License.
